@@ -1,0 +1,239 @@
+
+body{
+    margin:0  auto;
+    font-family: "lucida grande", tahoma,verdana,arial,sans-serif;
+}
+header {
+    background-color: #4c66a4;
+    min-width:80px;
+    width: 100%;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    
+}
+header #sitename {
+    margin: auto 0;
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: 100px;
+}
+header #sitename a{
+    text-decoration: none;
+    color: white;
+}
+header li{
+    list-style-type: none;
+    margin-left: 15px;
+}
+button{
+    margin-top: 19px;
+    background: #4c66a4;
+    color: white;
+}
+.form li span{
+    font-size: 13px;
+    color: #A9BCF5;
+}
+.form{
+    list-style-type: none ;
+    color: white;
+    padding-right: 90px;
+    display: flex;
+    margin: auto 0;
+}
+.BigSide{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    background: linear-gradient(white, #D3D8E8);
+    height: 1000px;
+}
+.right{
+    margin-right: 410px;
+    
+}
+.right p{
+    font-size: 60px;
+    font-family: bold;
+   
+    margin-bottom: auto;
+    
+}
+.right span{
+    font-size: 20px;
+    margin-top: auto;
+}
+#firstname{
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 78px;
+}
+#lastname{
+    padding-top:5px ;
+    padding-bottom: 5px;
+    padding-right: 78px;
+    
+}
+#email
+{
+    padding-right:160px ;
+    padding: 0 auto;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 310px;
+}
+#password{
+    padding-right: 160px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    padding-right: 310px;
+    
+}
+#option1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#option2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#terms{
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+#signup input{
+        background: green;
+        border-radius: 3px;
+        padding: auto 0;
+        padding-left: 30px;
+        padding-right: 30px;
+        font-size: 17px;
+        margin-bottom: 15px;
+        color: white;
+}
+.left{
+    padding-left: 415px;
+    margin-top: 40px;
+}
+.left p{
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.img{
+    width: 70px;
+    height: 50px;
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width:615px){
+
+
+    .left{
+       padding: 0;
+        margin: 0;
+    }
+    
+
+    .right{
+        margin: 0;
+        
+    }
+    
+
+
+    #email
+{
+    padding-right:0;
+    padding: 0 auto;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 0;
+}
+#password{
+    padding-right: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    padding-right: 0;
+    
+}
+.form{
+    list-style-type: none ;
+    color: white;
+    padding-right: 90px;
+    display: block;
+    margin: auto 0;
+    font-size: 10px;
+}
+header {
+    background-color: #4c66a4;
+    min-width:80px;
+    width: 100%;
+    height: 150px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+    
+}
+
+@media screen and (max-width:395px){
+
+
+
+    header {
+        background-color: #4c66a4;
+        min-width:80px;
+        width: 100%;
+        height: 200px;
+        margin: 0 auto;
+        display: block;
+        justify-content: space-around;
+       
+        
+    }
+    
+
+
+    .BigSide{
+        display: block;
+        justify-content: space-between;
+        list-style-type: none;
+        background: linear-gradient(white, #D3D8E8);
+        height: 1000px;
+    }
+    
+
+
+    header li{
+        list-style-type: none;
+        margin-left: 15px;
+        margin-bottom: 10px;
+        font-size: 5px;
+    }
+    
+    header #sitename {
+        margin: auto 0;
+        font-weight: bold;
+        font-size: 40px;
+        margin-right: 50px;
+    }
+    
+
+
+
+
+
+
+}
